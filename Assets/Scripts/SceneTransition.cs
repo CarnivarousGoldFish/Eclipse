@@ -11,7 +11,8 @@ public class SceneTransition : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        LoadScene();
+        if(collision.gameObject.CompareTag("Player")) LoadScene();
+
     }
 
 

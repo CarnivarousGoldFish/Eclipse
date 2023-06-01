@@ -7,7 +7,7 @@ public class BoulderTrigger : MonoBehaviour
 {
     [SerializeField] UnityEvent boulderTrigger;
 
-    // Start is called before the first frame update
+    
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
@@ -15,4 +15,5 @@ public class BoulderTrigger : MonoBehaviour
             boulderTrigger.Invoke();
         }
     }
+
 }
