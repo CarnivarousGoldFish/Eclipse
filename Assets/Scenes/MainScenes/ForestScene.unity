@@ -1278,7 +1278,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &569626013
 Animator:
-  serializedVersion: 5
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1295,8 +1295,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &632076189
 GameObject:
   m_ObjectHideFlags: 0
@@ -3261,7 +3260,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -4453,7 +4451,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2436655294559133436, guid: 439c5e20195825c4198fddeb6219e155, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 55
+      value: 55.023
       objectReference: {fileID: 0}
     - target: {fileID: 2436655294559133436, guid: 439c5e20195825c4198fddeb6219e155, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9697,6 +9695,10 @@ PrefabInstance:
     - target: {fileID: 2710609856803332235, guid: 9c10b7b4430901d428538c5843a89db9, type: 3}
       propertyPath: m_Name
       value: DialoguePanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2710609856803332235, guid: 9c10b7b4430901d428538c5843a89db9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2710609857521041996, guid: 9c10b7b4430901d428538c5843a89db9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
