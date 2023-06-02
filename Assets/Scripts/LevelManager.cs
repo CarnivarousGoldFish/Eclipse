@@ -41,7 +41,7 @@ public class LevelManager : MonoBehaviour
 
     public void ShowCredits()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(4);
     }
 
     public void BackHome ()
