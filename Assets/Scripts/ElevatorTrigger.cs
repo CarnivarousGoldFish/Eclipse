@@ -31,7 +31,7 @@ public class ElevatorTrigger : MonoBehaviour
                 return;
             else
             {
-                this.transform.Translate(0, Time.deltaTime + 0.01f, 0, Space.Self);
+                this.transform.Translate(0, Time.deltaTime + 0.05f, 0, Space.Self);
                 Debug.Log("Moving Up");
             }
                 
@@ -45,7 +45,7 @@ public class ElevatorTrigger : MonoBehaviour
             }
             else
             {
-                this.transform.Translate(0, -Time.deltaTime - 0.01f, 0, Space.Self);
+                this.transform.Translate(0, -Time.deltaTime - 0.05f, 0, Space.Self);
                 Debug.Log("Moving Down");
             }
                 
